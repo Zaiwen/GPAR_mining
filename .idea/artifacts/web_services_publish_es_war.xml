@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="web-services-publish-es:war">
+    <output-path>$PROJECT_DIR$/karma-web-services/web-services-publish-es/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>web-services-publish-es</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="web-services-publish-es-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="web-services-publish-es:war exploded" />
+    </root>
+  </artifact>
+</component>

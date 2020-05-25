@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/karma-commands/commands-alignment/commands-alignment.iml" filepath="$PROJECT_DIR$/karma-commands/commands-alignment/commands-alignment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/karma-commands/commands-alignment-openrdf/commands-alignment-openrdf.iml" filepath="$PROJECT_DIR$/karma-commands/commands-alignment-openrdf/commands-alignment-openrdf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/karma-commands/commands-bloom/commands-bloom.iml" filepath="$PROJECT_DIR$/karma-commands/commands-bloom/commands-bloom.iml" />
+      <module fileurl="file://$PROJECT_DIR$/karma-commands/commands-common/commands-common.iml" filepath="$PROJECT_DIR$/karma-commands/commands-common/commands-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/karma-commands/commands-import/commands-import.iml" filepath="$PROJECT_DIR$/karma-commands/commands-import/commands-import.iml" />
+      <module fileurl="file://$PROJECT_DIR$/karma-commands/commands-include/commands-include.iml" filepath="$PROJECT_DIR$/karma-commands/commands-include/commands-include.iml" />
+      <module fileurl="file://$PROJECT_DIR$/karma-commands/commands-publish/commands-publish.iml" filepath="$PROJECT_DIR$/karma-commands/commands-publish/commands-publish.iml" />
+      <module fileurl="file://$PROJECT_DIR$/karma-commands/commands-publish-alignment-openrdf/commands-publish-alignment-openrdf.iml" filepath="$PROJECT_DIR$/karma-commands/commands-publish-alignment-openrdf/commands-publish-alignment-openrdf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/karma-commands/commands-publish-jdbc/commands-publish-jdbc.iml" filepath="$PROJECT_DIR$/karma-commands/commands-publish-jdbc/commands-publish-jdbc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/karma-commands/commands-python/commands-python.iml" filepath="$PROJECT_DIR$/karma-commands/commands-python/commands-python.iml" />
+      <module fileurl="file://$PROJECT_DIR$/karma-commands/commands-update/commands-update.iml" filepath="$PROJECT_DIR$/karma-commands/commands-update/commands-update.iml" />
+      <module fileurl="file://$PROJECT_DIR$/karma-commands/commands-update-jdbc/commands-update-jdbc.iml" filepath="$PROJECT_DIR$/karma-commands/commands-update-jdbc/commands-update-jdbc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/karma-commands/commands-worksheet/commands-worksheet.iml" filepath="$PROJECT_DIR$/karma-commands/commands-worksheet/commands-worksheet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/extension/extension.iml" filepath="$PROJECT_DIR$/extension/extension.iml" />
+      <module fileurl="file://$PROJECT_DIR$/extension/grami_directed_subgraph/grami_directed_subgraph.iml" filepath="$PROJECT_DIR$/extension/grami_directed_subgraph/grami_directed_subgraph.iml" />
+      <module fileurl="file://$PROJECT_DIR$/karma-commands/commands-import/import-avro/import-avro.iml" filepath="$PROJECT_DIR$/karma-commands/commands-import/import-avro/import-avro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/karma-commands/commands-import/import-common/import-common.iml" filepath="$PROJECT_DIR$/karma-commands/commands-import/import-common/import-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/karma-commands/commands-import/import-csv/import-csv.iml" filepath="$PROJECT_DIR$/karma-commands/commands-import/import-csv/import-csv.iml" />
+      <module fileurl="file://$PROJECT_DIR$/karma-commands/commands-import/import-database/import-database.iml" filepath="$PROJECT_DIR$/karma-commands/commands-import/import-database/import-database.iml" />
+      <module fileurl="file://$PROJECT_DIR$/karma-commands/commands-import/import-excel/import-excel.iml" filepath="$PROJECT_DIR$/karma-commands/commands-import/import-excel/import-excel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/karma-commands/commands-import/import-file/import-file.iml" filepath="$PROJECT_DIR$/karma-commands/commands-import/import-file/import-file.iml" />
+      <module fileurl="file://$PROJECT_DIR$/karma-commands/commands-import/import-json/import-json.iml" filepath="$PROJECT_DIR$/karma-commands/commands-import/import-json/import-json.iml" />
+      <module fileurl="file://$PROJECT_DIR$/karma-commands/commands-import/import-ontology/import-ontology.iml" filepath="$PROJECT_DIR$/karma-commands/commands-import/import-ontology/import-ontology.iml" />
+      <module fileurl="file://$PROJECT_DIR$/karma-commands/commands-import/import-service/import-service.iml" filepath="$PROJECT_DIR$/karma-commands/commands-import/import-service/import-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/karma-commands/commands-import/import-spatial/import-spatial.iml" filepath="$PROJECT_DIR$/karma-commands/commands-import/import-spatial/import-spatial.iml" />
+      <module fileurl="file://$PROJECT_DIR$/karma-commands/commands-import/import-xml/import-xml.iml" filepath="$PROJECT_DIR$/karma-commands/commands-import/import-xml/import-xml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/karma-commands/karma-commands.iml" filepath="$PROJECT_DIR$/karma-commands/karma-commands.iml" />
+      <module fileurl="file://$PROJECT_DIR$/karma-common/karma-common.iml" filepath="$PROJECT_DIR$/karma-common/karma-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/karma-jdbc/karma-jdbc.iml" filepath="$PROJECT_DIR$/karma-jdbc/karma-jdbc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/karma-jsonld/karma-jsonld.iml" filepath="$PROJECT_DIR$/karma-jsonld/karma-jsonld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/karma-mr/karma-mr.iml" filepath="$PROJECT_DIR$/karma-mr/karma-mr.iml" />
+      <module fileurl="file://$PROJECT_DIR$/karma-offline/karma-offline.iml" filepath="$PROJECT_DIR$/karma-offline/karma-offline.iml" />
+      <module fileurl="file://$PROJECT_DIR$/karma-spark/karma-spark.iml" filepath="$PROJECT_DIR$/karma-spark/karma-spark.iml" />
+      <module fileurl="file://$PROJECT_DIR$/karma-storm/karma-storm.iml" filepath="$PROJECT_DIR$/karma-storm/karma-storm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/karma-typer/karma-typer.iml" filepath="$PROJECT_DIR$/karma-typer/karma-typer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/karma-util/karma-util.iml" filepath="$PROJECT_DIR$/karma-util/karma-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/karma-web/karma-web.iml" filepath="$PROJECT_DIR$/karma-web/karma-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/karma-web-services/karma-web-services.iml" filepath="$PROJECT_DIR$/karma-web-services/karma-web-services.iml" />
+      <module fileurl="file://$PROJECT_DIR$/extension/spark_apriori_mining/spark_apriori_mining.iml" filepath="$PROJECT_DIR$/extension/spark_apriori_mining/spark_apriori_mining.iml" />
+      <module fileurl="file://$PROJECT_DIR$/extension/spark_graph_mining/spark_graph_mining.iml" filepath="$PROJECT_DIR$/extension/spark_graph_mining/spark_graph_mining.iml" />
+      <module fileurl="file://$PROJECT_DIR$/karma-web-services/web-services-publish-es/web-services-publish-es.iml" filepath="$PROJECT_DIR$/karma-web-services/web-services-publish-es/web-services-publish-es.iml" />
+      <module fileurl="file://$PROJECT_DIR$/karma-web-services/web-services-rdf/web-services-rdf.iml" filepath="$PROJECT_DIR$/karma-web-services/web-services-rdf/web-services-rdf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webkarma.iml" filepath="$PROJECT_DIR$/webkarma.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="web-services-rdf:war">
+    <output-path>$PROJECT_DIR$/karma-web-services/web-services-rdf/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>web-services-rdf</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="web-services-rdf-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="web-services-rdf:war exploded" />
+    </root>
+  </artifact>
+</component>

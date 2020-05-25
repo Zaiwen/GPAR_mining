@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/extension/grami_directed_subgraph/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/extension/spark_apriori_mining/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/extension/spark_graph_mining/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/karma-commands/commands-alignment-openrdf/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/karma-commands/commands-alignment/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/karma-commands/commands-bloom/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/karma-commands/commands-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/karma-commands/commands-import/import-avro/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/karma-commands/commands-import/import-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/karma-commands/commands-import/import-csv/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/karma-commands/commands-import/import-database/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/karma-commands/commands-import/import-excel/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/karma-commands/commands-import/import-json/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/karma-commands/commands-import/import-ontology/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/karma-commands/commands-import/import-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/karma-commands/commands-import/import-spatial/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/karma-commands/commands-import/import-xml/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/karma-commands/commands-publish-alignment-openrdf/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/karma-commands/commands-publish/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/karma-commands/commands-python/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/karma-commands/commands-update-jdbc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/karma-commands/commands-update/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/karma-commands/commands-worksheet/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/karma-common/src/main/config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/karma-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/karma-jdbc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/karma-jsonld/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/karma-mr/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/karma-offline/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/karma-spark/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/karma-storm/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/karma-typer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/karma-util/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/karma-web-services/web-services-publish-es/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/karma-web-services/web-services-rdf/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/karma-web/src/main/config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/karma-web/src/main/java" charset="UTF-8" />
+  </component>
+</project>

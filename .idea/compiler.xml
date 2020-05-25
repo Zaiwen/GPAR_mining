@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="karma-common" />
+        <module name="import-excel" />
+        <module name="karma-typer" />
+        <module name="grami_directed_subgraph" />
+        <module name="import-json" />
+        <module name="commands-update-jdbc" />
+        <module name="import-spatial" />
+        <module name="commands-alignment-openrdf" />
+        <module name="karma-jsonld" />
+        <module name="commands-publish-alignment-openrdf" />
+        <module name="import-common" />
+        <module name="commands-publish-jdbc" />
+        <module name="commands-publish" />
+        <module name="commands-alignment" />
+        <module name="import-service" />
+        <module name="karma-web" />
+        <module name="karma-jdbc" />
+        <module name="karma-mr" />
+        <module name="commands-worksheet" />
+        <module name="commands-update" />
+        <module name="karma-spark" />
+        <module name="import-avro" />
+        <module name="import-csv" />
+        <module name="import-xml" />
+        <module name="commands-bloom" />
+        <module name="import-file" />
+        <module name="import-database" />
+        <module name="karma-util" />
+        <module name="spark_graph_mining" />
+        <module name="karma-storm" />
+        <module name="web-services-publish-es" />
+        <module name="karma-offline" />
+        <module name="commands-python" />
+        <module name="import-ontology" />
+        <module name="web-services-rdf" />
+        <module name="commands-common" />
+        <module name="spark_apriori_mining" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="commands-alignment" target="1.7" />
+      <module name="commands-alignment-openrdf" target="1.7" />
+      <module name="commands-bloom" target="1.7" />
+      <module name="commands-common" target="1.7" />
+      <module name="commands-import" target="1.7" />
+      <module name="commands-include" target="1.7" />
+      <module name="commands-publish" target="1.7" />
+      <module name="commands-publish-alignment-openrdf" target="1.7" />
+      <module name="commands-publish-jdbc" target="1.7" />
+      <module name="commands-python" target="1.7" />
+      <module name="commands-update" target="1.7" />
+      <module name="commands-update-jdbc" target="1.7" />
+      <module name="commands-worksheet" target="1.7" />
+      <module name="extension" target="1.8" />
+      <module name="grami_directed_subgraph" target="1.8" />
+      <module name="import-avro" target="1.7" />
+      <module name="import-common" target="1.7" />
+      <module name="import-csv" target="1.7" />
+      <module name="import-database" target="1.7" />
+      <module name="import-excel" target="1.7" />
+      <module name="import-file" target="1.7" />
+      <module name="import-json" target="1.7" />
+      <module name="import-ontology" target="1.7" />
+      <module name="import-service" target="1.7" />
+      <module name="import-spatial" target="1.7" />
+      <module name="import-xml" target="1.7" />
+      <module name="karma-commands" target="1.7" />
+      <module name="karma-common" target="1.7" />
+      <module name="karma-jdbc" target="1.7" />
+      <module name="karma-jsonld" target="1.7" />
+      <module name="karma-mr" target="1.7" />
+      <module name="karma-offline" target="1.7" />
+      <module name="karma-spark" target="1.7" />
+      <module name="karma-storm" target="1.7" />
+      <module name="karma-typer" target="1.7" />
+      <module name="karma-util" target="1.8" />
+      <module name="karma-web" target="1.7" />
+      <module name="karma-web-services" target="1.7" />
+      <module name="spark_apriori_mining" target="1.8" />
+      <module name="spark_graph_mining" target="1.8" />
+      <module name="web-services-publish-es" target="1.7" />
+      <module name="web-services-rdf" target="1.7" />
+      <module name="webkarma" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
