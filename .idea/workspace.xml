@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="57733156-7cf3-4cde-a370-bb0ba4be131e" name="Default Changelist" comment="" />
+    <list default="true" id="57733156-7cf3-4cde-a370-bb0ba4be131e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/grami_directed_subgraph/src/main/java/Dmine/Dmine.java" beforeDir="false" afterPath="$PROJECT_DIR$/extension/grami_directed_subgraph/src/main/java/Dmine/Dmine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/grami_directed_subgraph/src/main/java/Dmine/Rule.java" beforeDir="false" afterPath="$PROJECT_DIR$/extension/grami_directed_subgraph/src/main/java/Dmine/Rule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/grami_directed_subgraph/src/main/java/Dmine/dminePartition.java" beforeDir="false" afterPath="$PROJECT_DIR$/extension/grami_directed_subgraph/src/main/java/Dmine/dminePartition.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -96,7 +101,9 @@
       <workItem from="1590104976770" duration="2724000" />
       <workItem from="1590307933345" duration="5823000" />
       <workItem from="1590324363094" duration="223000" />
-      <workItem from="1590414502522" duration="321000" />
+      <workItem from="1590414502522" duration="441000" />
+      <workItem from="1590582962036" duration="3321000" />
+      <workItem from="1590676915168" duration="1244000" />
     </task>
     <servers />
   </component>
@@ -104,54 +111,54 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1878" height="356" key="GridCell.Tab.0.bottom" timestamp="1590320245720">
+    <state width="1878" height="511" key="GridCell.Tab.0.bottom" timestamp="1590678177096">
       <screen x="0" y="23" width="1920" height="985" />
     </state>
-    <state width="1878" height="356" key="GridCell.Tab.0.bottom/0.23.1920.985@0.23.1920.985" timestamp="1590320245720" />
-    <state width="1878" height="356" key="GridCell.Tab.0.center" timestamp="1590320245720">
+    <state width="1878" height="511" key="GridCell.Tab.0.bottom/0.23.1920.985@0.23.1920.985" timestamp="1590678177096" />
+    <state width="1878" height="511" key="GridCell.Tab.0.center" timestamp="1590678177096">
       <screen x="0" y="23" width="1920" height="985" />
     </state>
-    <state width="1878" height="356" key="GridCell.Tab.0.center/0.23.1920.985@0.23.1920.985" timestamp="1590320245720" />
-    <state width="1878" height="356" key="GridCell.Tab.0.left" timestamp="1590320245719">
+    <state width="1878" height="511" key="GridCell.Tab.0.center/0.23.1920.985@0.23.1920.985" timestamp="1590678177096" />
+    <state width="1878" height="511" key="GridCell.Tab.0.left" timestamp="1590678177096">
       <screen x="0" y="23" width="1920" height="985" />
     </state>
-    <state width="1878" height="356" key="GridCell.Tab.0.left/0.23.1920.985@0.23.1920.985" timestamp="1590320245719" />
-    <state width="1878" height="356" key="GridCell.Tab.0.right" timestamp="1590320245720">
+    <state width="1878" height="511" key="GridCell.Tab.0.left/0.23.1920.985@0.23.1920.985" timestamp="1590678177096" />
+    <state width="1878" height="511" key="GridCell.Tab.0.right" timestamp="1590678177096">
       <screen x="0" y="23" width="1920" height="985" />
     </state>
-    <state width="1878" height="356" key="GridCell.Tab.0.right/0.23.1920.985@0.23.1920.985" timestamp="1590320245720" />
-    <state width="1878" height="356" key="GridCell.Tab.1.bottom" timestamp="1590320245722">
+    <state width="1878" height="511" key="GridCell.Tab.0.right/0.23.1920.985@0.23.1920.985" timestamp="1590678177096" />
+    <state width="1878" height="256" key="GridCell.Tab.1.bottom" timestamp="1590587998365">
       <screen x="0" y="23" width="1920" height="985" />
     </state>
-    <state width="1878" height="356" key="GridCell.Tab.1.bottom/0.23.1920.985@0.23.1920.985" timestamp="1590320245722" />
-    <state width="1878" height="356" key="GridCell.Tab.1.center" timestamp="1590320245721">
+    <state width="1878" height="256" key="GridCell.Tab.1.bottom/0.23.1920.985@0.23.1920.985" timestamp="1590587998365" />
+    <state width="1878" height="256" key="GridCell.Tab.1.center" timestamp="1590587998364">
       <screen x="0" y="23" width="1920" height="985" />
     </state>
-    <state width="1878" height="356" key="GridCell.Tab.1.center/0.23.1920.985@0.23.1920.985" timestamp="1590320245721" />
-    <state width="1878" height="356" key="GridCell.Tab.1.left" timestamp="1590320245721">
+    <state width="1878" height="256" key="GridCell.Tab.1.center/0.23.1920.985@0.23.1920.985" timestamp="1590587998364" />
+    <state width="1878" height="256" key="GridCell.Tab.1.left" timestamp="1590587998363">
       <screen x="0" y="23" width="1920" height="985" />
     </state>
-    <state width="1878" height="356" key="GridCell.Tab.1.left/0.23.1920.985@0.23.1920.985" timestamp="1590320245721" />
-    <state width="1878" height="356" key="GridCell.Tab.1.right" timestamp="1590320245721">
+    <state width="1878" height="256" key="GridCell.Tab.1.left/0.23.1920.985@0.23.1920.985" timestamp="1590587998363" />
+    <state width="1878" height="256" key="GridCell.Tab.1.right" timestamp="1590587998365">
       <screen x="0" y="23" width="1920" height="985" />
     </state>
-    <state width="1878" height="356" key="GridCell.Tab.1.right/0.23.1920.985@0.23.1920.985" timestamp="1590320245721" />
-    <state x="639" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1590413325956">
+    <state width="1878" height="256" key="GridCell.Tab.1.right/0.23.1920.985@0.23.1920.985" timestamp="1590587998365" />
+    <state x="639" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1590582967256">
       <screen x="0" y="23" width="1920" height="985" />
     </state>
-    <state x="639" y="347" key="com.intellij.ide.util.TipDialog/0.23.1920.985@0.23.1920.985" timestamp="1590413325956" />
+    <state x="639" y="347" key="com.intellij.ide.util.TipDialog/0.23.1920.985@0.23.1920.985" timestamp="1590582967256" />
     <state x="639" y="348" key="com.intellij.ide.util.TipDialog/0.23.1920.987@0.23.1920.987" timestamp="1583295811895" />
-    <state x="626" y="272" width="862" height="486" key="find.popup" timestamp="1584274313131">
+    <state x="626" y="272" width="862" height="486" key="find.popup" timestamp="1590678059313">
       <screen x="0" y="23" width="1920" height="985" />
     </state>
-    <state x="626" y="272" width="862" height="486" key="find.popup/0.23.1920.985@0.23.1920.985" timestamp="1584274313131" />
+    <state x="626" y="272" width="862" height="486" key="find.popup/0.23.1920.985@0.23.1920.985" timestamp="1590678059313" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/extension/grami_directed_subgraph/src/main/java/Dmine/Dmine.java</url>
-          <line>729</line>
+          <line>713</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

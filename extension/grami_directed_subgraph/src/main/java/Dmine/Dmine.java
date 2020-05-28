@@ -125,44 +125,8 @@ public class Dmine {
                 });
         allExtendRules.addAll(extendRules.collect());
 
-
-//        for (Graph partition : partitions) {
-//            i++;
-//            Confidence conf = new Confidence(source_id, source_label, edge_label);
-//            conf.setG(partition);
-//            HashMap<Integer, HashSet<Integer>> nonCandidates = new HashMap<>();//create a hashmap to save pruned variables
-//            HashMap<Integer, HashSet<Integer>> nonCandidates1 = new HashMap<>();//create a hashmap to save pruned variables
-//            qGSupports.add(conf.getq_GSupport(query, nonCandidates, 1));
-//            _qGSupports.add(conf.get_q_GSupport());
-//            HashMap<Integer, Integer> sourceToTarget = conf.getSourceToTarget(query, nonCandidates1, 1);
-//            sourceToTargets.add(sourceToTarget);
-//            confs.add(conf);
-//            List<List<Rule>> partitionRules = new ArrayList<>();
-//
-//
-//            for (int id : conf.getIdOfXInq()) {
-//                List<Rule> extendRules = new ArrayList<>();
-//                Rule rule = new Rule(target_label, edge_label, partition, conf, support, i);
-//                rule.setCenterNodeId(id);
-//                rule.setTargetNodeId(sourceToTarget.get(id));
-//                rule.updateExtendableNodesNew();
-//                List<List<Rule>> candidates = rule.getCandidates();
-//                for (List<Rule> rules : candidates) {
-//                    extendRules.addAll(rules);
-//                }
-//                partitionRules.add(extendRules);
-//            }
-//
-//            List<Rule> partitionCheckedRules = localAutomorphismChecking(partitionRules);
-//            allExtendRules.add(partitionCheckedRules);
-//        }partitionCheckedRules
         this.extendRules = partitionAutomorphismChecking();
-//        for (Integer temp : qGSupports) {
-//            this.qGSupport += temp;
-//        }
-//        for (Integer temp : _qGSupports) {
-//            this._qGSupport += temp;
-//        }
+
     }
 
 
@@ -180,7 +144,7 @@ public class Dmine {
         for (int i = 1; i < allExtendRules.size(); i++) {
             candidates = automorphismChecking(candidates, allExtendRules.get(i));
         }
-        System.out.println("工作结点互模拟："+(System.currentTimeMillis() - start) +"毫秒");
+        System.out.println("It costs while bi-simulation at the coordinator："+(System.currentTimeMillis() - start) +"ms");
         return candidates;
     }
 
@@ -306,6 +270,10 @@ public class Dmine {
         return result;
     }
 
+    /**
+     * Revised on 27 May 2020 by Zaiwen
+     *
+     * **/
     public void partitionFilterRule() {
         // filter through support && trivial GPARs
         for (int i = 0; i < extendRules.size(); i++) {
@@ -315,20 +283,36 @@ public class Dmine {
             }
         }
         curMessages = new ArrayList<>(extendRules.size());
+
         for (Rule rule : extendRules) {
+
+            System.out.println("GPAR：");
+            System.out.println("LHS： ");
+            System.out.println(rule.getPattern());
+            System.out.println("LHS+RHS：");
+            System.out.println(rule.getRule());
+
+
+
             Message message = new Message(rule.getPartition() + "_" + rule.getCenterNodeId() + "_" + rule.getPattern().hashCode());
             message.setRule(rule.getRule());
             message.setR(rule);
             message.setConf((rule.getRSupport() * ((double) _qGSupport)) / (rule.getQ_qSupport() * ((double) qGSupport)));
             curMessages.add(message);
         }
+
+//        /**printing out all the rules**/
 //        for (int i = 0; i < curMessages.size(); i++) {
-//            if (curMessages.get(i).getConf() < 0.4) {
-//                curMessages.remove(curMessages.get(i));
-//                i--;
-//            }
+//            Message message = curMessages.get(i);
+//
 //        }
-        System.out.println("经过过滤当前有" + curMessages.size() + "个规则");
+
+
+
+
+
+
+        System.out.println("After filtering out, there are " + curMessages.size() + " GPARs totally.");
         allMessages.addAll(curMessages);
 
     }
@@ -364,17 +348,17 @@ public class Dmine {
         allMessages.clear();
         allMessages.add(pair.getA());
         allMessages.add(pair.getB());
-        System.out.println("进行多样化过滤，得出当前前" + k + "个规则");
+        System.out.println("After diversified filtering，we obtain " + k + " GPARs at present.");
         for (MessagePair messagePair : topK) {
-            System.out.println("规则：");
-            System.out.println("前身：");
+            System.out.println("GPAR：");
+            System.out.println("LHS：");
             System.out.println(messagePair.getA().getR().getPattern());
-            System.out.println("本身：");
+            System.out.println("LHS+RHS：");
             System.out.println(messagePair.getA().getRule());
-            System.out.println("规则：");
-            System.out.println("前身：");
+            System.out.println("GPAR：");
+            System.out.println("LHS：");
             System.out.println(messagePair.getA().getR().getPattern());
-            System.out.println("本身：");
+            System.out.println("LHS+RHS：");
             System.out.println(messagePair.getB().getRule());
         }
     }
@@ -686,11 +670,11 @@ public class Dmine {
 //        dmine.localMine();
 //        dmine.filterRule();
 //        dmine.updateTopK();
-        System.out.println("第一轮挖掘：");
+        System.out.println("The first round of mining：");
         dmine.partitionInit();
         dmine.partitionFilterRule();
         dmine.tempTopK();
-        System.out.println("第二轮挖掘：");
+        System.out.println("The second round of mining：");
         dmine.partitionLocalMine();
         dmine.partitionFilterRule();
     }

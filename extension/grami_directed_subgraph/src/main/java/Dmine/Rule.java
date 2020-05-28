@@ -262,49 +262,6 @@ public class Rule implements Cloneable, Serializable {
         }
     }
 
-//    private void extendAndProcess(myNode node) {
-//        if (node.getReachableWithNodes() != null) {
-//            for (Map.Entry<Integer, ArrayList<MyPair<Integer, Double>>> entry : node.getReachableWithNodes().entrySet()) {
-//                int index = judgeInGraph.get(node.getID());
-//                List<MyPair<String, Integer>> processList = processMap.containsKey(index) ? processMap.get(index) : new ArrayList<>();
-//                for (MyPair<Integer, Double> pair : entry.getValue()) {
-//                    HPListGraph candidateGraph = (HPListGraph) pattern.clone();
-//                    if (!(entry.getKey() == target_node_label && (double) pair.getB() == edge_label && node.getID() == centerNodeId)) {
-//                        if (!judgeInGraph.containsKey((Integer) pair.getA())) {
-//                            int target_index = candidateGraph.addNodeIndex(entry.getKey());
-//                            if ((Integer) pair.getA() == targetNodeId) {
-//                                targetNode_index = target_index;
-//                            }
-//                            checkAndExtend(index, target_index, node, pair, entry, processList, candidateGraph);
-//                        }else {
-//                            int target_index = judgeInGraph.get((Integer) pair.getA());
-//                            checkAndExtend(index, target_index, node, pair, entry, processList, candidateGraph);
-//                        }
-//                    }
-//                }
-//                this.processMap.put(index, processList);
-//            }
-//        }
-////        if (node.getReachableByNodes() != null) {
-////            for (Map.Entry<Integer, ArrayList<MyPair<Integer, Double>>> entry: node.getReachableByNodes().entrySet()) {
-////                int index = judgeInGraph.get(node.getID());
-////                for (MyPair pair : entry.getValue()) {
-////                    if (judgeInGraph.containsKey((Integer) pair.getA())) {
-////                        int target_index = judgeInGraph.get((Integer) pair.getA());
-////                        if (pattern.getEdge(target_index, index) == -1) {
-////                            pattern.addEdgeIndex(index, target_index, (double) pair.getB(),-1);
-////                            List<MyPair<String, Integer>> processList =
-////                                    processMap.containsKey(target_index) ? processMap.get(target_index) : new ArrayList<>();
-////                            MyPair<String, Integer> processPair = new MyPair<>
-////                                    (String.valueOf((double) pair.getB()) + "_" + String.valueOf(node.getLabel()), index);
-////                            processList.add(processPair);
-////                            processMap.put(target_index, processList);
-////                        }
-////                    }
-////                }
-////            }
-////        }
-//    }
 
     private void judgeSupport() {
         if (this.RSupport == -1 || this.Q_qSupport == -1) {
@@ -395,40 +352,7 @@ public class Rule implements Cloneable, Serializable {
         return rule.getRSupport() >= support;
     }
 
-//    public List<List<Edge>> latticeFirstExpand() {
-//        List<Rule> candidates = new ArrayList<>();
-//        List<Edge> edges = dealWithEdges();
-//        List<List<Edge>> first = new ArrayList<>(edges.size());
-//        List<Edge> allFirstCandidateEdges = new ArrayList<>();
-//        List<List<Edge>> next = new ArrayList<>();
-//        for (Edge edge : edges) {
-//            List<Edge> temp = new ArrayList<>(1);
-//            temp.add(edge);
-//            first.add(temp);
-//        }
-//        for (List<Edge> edgeList : first) {
-//            Rule rule = null;
-//            try {
-//                rule = this.clone();
-//            } catch (CloneNotSupportedException e) {
-//                e.printStackTrace();
-//            }
-//            if (latticeExpand(rule, edgeList)) {
-//                candidates.add(rule);
-//                allFirstCandidateEdges.add(edgeList.get(0));
-//            }
-//        }
-//        allCandidates.add(candidates);
-//        for (int i = 0; i < allFirstCandidateEdges.size(); i++) {
-//            for (int j = i + 1; j < allFirstCandidateEdges.size(); j++) {
-//                List<Edge> temp = new ArrayList<>(2);
-//                temp.add(allFirstCandidateEdges.get(i));
-//                temp.add(allFirstCandidateEdges.get(j));
-//                next.add(temp);
-//            }
-//        }
-//        return next;
-//    }
+
 
     private List<List<Edge>> latticeNextExpand(List<List<Edge>> curExpand, int k) {
         List<Rule> candidates = new ArrayList<>();

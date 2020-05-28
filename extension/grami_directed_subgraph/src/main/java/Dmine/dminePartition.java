@@ -63,7 +63,7 @@ public class dminePartition implements Serializable {
         }
         long start = System.currentTimeMillis();
         automorphismCheck(candidates);
-        System.out.println("本地互模拟："+(System.currentTimeMillis() - start) +"毫秒");
+        System.out.println("It costs while bi-simulation locally："+(System.currentTimeMillis() - start) +"ms");
         return candidates;
     }
 
@@ -144,7 +144,7 @@ public class dminePartition implements Serializable {
             }
             partitionRules.add(extendRules);
         }
-        System.out.println("扩展耗时：" + (System.currentTimeMillis() - start) + "毫秒");
+        System.out.println("It costs while extending to mine frequent patterns locally：" + (System.currentTimeMillis() - start) + "ms");
 
 //        JavaRDD<Integer> centerIds = sc.parallelize(conf.getIdOfXInq());
 //        JavaRDD<List<Rule>> rules = centerIds
@@ -330,7 +330,7 @@ public class dminePartition implements Serializable {
 
         partitionRules.add(extendRules);
 
-        System.out.println("扩展耗时：" + (System.currentTimeMillis() - start) + "毫秒");
+        System.out.println("It costs while extending to mine frequent patterns locally：" + (System.currentTimeMillis() - start) + "ms");
 
         return localAutomorphismChecking();
     }
@@ -355,7 +355,7 @@ public class dminePartition implements Serializable {
             partitionRules.add(extendRules);
         }
 
-        System.out.println("扩展耗时：" + (System.currentTimeMillis() - start) + "毫秒");
+        System.out.println("It costs while extending to mine frequent patterns locally：" + (System.currentTimeMillis() - start) + "ms");
 
         return localAutomorphismChecking();
     }
